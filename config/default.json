@@ -1,0 +1,8 @@
+{
+  "mongo_url": "mongodb://localhost/",
+  "mongo_dbs": {
+    "proj1":"api-factorymanagement"
+  },
+  "secret": "api-demo-secret",
+  "port": 8080
+}

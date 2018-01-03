@@ -1,0 +1,8 @@
+applications:
+- name: Heineken-api
+  host: heineken-api
+  memory: 128M
+  disk_quota: 1024M
+  command: npm start
+  domain: mybluemix.net
+  instances: 1

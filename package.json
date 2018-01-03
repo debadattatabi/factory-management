@@ -1,0 +1,25 @@
+{
+  "name": "factory-management-api",
+  "version": "1.0.0",
+  "description": "API structure using node, express & mongo",
+  "main": "server.js",
+  "repository": "git@github.com:jygiri77/factorymanagement-api.git",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bunyan": "^1.8.10",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.2",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
